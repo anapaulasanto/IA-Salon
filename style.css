@@ -1,29 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-image: url(images/img-fundo.jpg);
+    height: 100vh;
+    border-bottom: 2px solid rgb(182, 53, 225);
+}
+
 header > nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+header > nav > #img-logo {
+    width: 100px;
+    margin-right: 190px;
 }
 
 header > nav > ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(48, 27, 49, 0.953);
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    transform: translateX(-100%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s linear;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header > nav > ul > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 60px;
+    margin-bottom: 50px;
 }
+
 
 header > nav > ul > li > a {
     text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(95, 88, 103);
+    padding: 8px 23px;
+    border-radius: 20px;
+}
+
+header > nav > ul > #img-hide  {
+    width: 100px;
+    margin-left: 40%;
+    margin-bottom: 80px;
+}
+
+nav > .btn-nav > img {
+    width: 50px;
+    margin-right: 60px;
+}
+
+.btn-nav {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 2.5rem;
+    display: block;
+}
+
+.hide {
+    display: block;
+    transition: 1s all;
+    transform: translateX(0);
+}
+
+header > .content-header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50%;
+    
+}
+
+header > .content-header > h1 {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 4.6rem;
+    font-weight: 100;
+    line-height: 1px;
+    color: gray;
+}
+
+header > .content-header > h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5.6rem;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+header > .content-header > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(184, 184, 184);
+    margin-top: 50%;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+main > #section-hair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/img-bg-section2.png);
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+main > #section-hair > .text-side > h3 {
+    font-size: 2.6rem;
+    letter-spacing: 4px;
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    padding: 40px 0;
+    color: rgb(105, 104, 104);
+}
+
+main > #section-hair > .img-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main > #section-hair > .img-side > img{
+    width: 150px;
+}
+
+main > #section-contact > h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    padding: 40px 0;
+    color: rgb(105, 104, 104);
+}
+
+main > #section-contact > #forms > form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+main > #section-contact > #forms > form > input, textarea {
+    padding: 20px;
+    width: 90%;
+    border-radius: 0%;
+    border: 1px solid rgb(204, 140, 204);
+}
+
+main > #section-contact > #forms > form > #btn-enviar {
+    background-color: rgb(149, 96, 149);
+    color: white;
+    font-size: 1.6rem;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 1.6rem;
 }
 
 
-header > nav > #img-logo {
-    width: 90px;
-}
+
