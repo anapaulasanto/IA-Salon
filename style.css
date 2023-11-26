@@ -159,54 +159,53 @@ main > #section-hair > .text-side > h3 {
 }
 
 main > #section-hair > .text-side > p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     letter-spacing: 4px;
-    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin: 40px 0;
     padding-bottom: 40px;
-    color: rgb(75, 75, 75);
+    color: rgb(48, 48, 48);
 }
 
 main > #section-contact {
     background-image: url(images/img-bg-section3.png);
     background-size: cover;
     background-position: center;
+    padding-bottom: 40px;
 }
 
 main > #section-contact > h3 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-family: 'Prata', serif;
     font-weight: 500;
     padding-top: 40px;
+    padding-bottom: 50px;
     color: rgb(60, 60, 60);
 }
 
-main > #section-contact > p {
-    font-size: 1.5rem;
+/*main > #section-contact > p {
+    font-size: 1.7rem;
     text-align: center;
     letter-spacing: 4px;
-    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin: 40px 0;
     margin-bottom: 70px;
-    color: rgb(72, 71, 71);
+    color: rgb(76, 76, 76);
 }
+*/
 
-main > #section-contact > .contato > #btn-contato {
-    background-color: rgb(178, 146, 210);
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 1.6rem;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 250px;
+
+main > #section-news {
+    background-color: rgb(174, 154, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 
 main > #section-news > h3 {
     text-align: center;
@@ -214,7 +213,8 @@ main > #section-news > h3 {
     font-family: 'Prata', serif;
     font-weight: 500;
     padding: 40px 0;
-    color: rgb(42, 42, 42);
+    color: rgb(246, 243, 243);
+    width: 400px;
 }
 
 main > #section-news > #forms-news > form {
@@ -228,7 +228,7 @@ main > #section-news > #forms-news > form {
 
 main > #section-news > #forms-news > form > input {
     padding: 20px;
-    width: 70%;
+    width: 90%;
     border: 1px solid rgb(188, 155, 188);
     margin-bottom: 20px;
 }
@@ -238,9 +238,10 @@ input::placeholder {
 }
 
 main > #section-news > #forms-news > form > #btn-news {
-    background-color:  rgb(178, 146, 210);
+    background-color:  rgb(255, 255, 255);
     font-size: 1.6rem;
-    color: white;
+    color: rgb(8, 8, 8);
+    width: 50%;
 }
 
 main > #section-contact > #forms > form {
@@ -260,9 +261,9 @@ main > #section-contact > #forms > form > input, textarea {
 }
 
 main > #section-contact > #forms > form > #btn-enviar {
-    background-color: rgb(149, 96, 149);
+    background-color: rgb(185, 150, 195);
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 input::placeholder, textarea::placeholder {
