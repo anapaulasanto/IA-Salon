@@ -152,17 +152,61 @@ header > .content-header > p {
     text-align: center;
 }
 
+main > #section-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    background-image: url(images/img-section-sobre.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main > #section-sobre > #text-sobre > p {
+    font-size: 3rem;
+    font-family: 'Mrs Saint Delafield', cursive;
+    line-height: 1px;
+    color: gray;
+}
+
+main > #section-sobre > #text-sobre > h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+main > #section-sobre > #text-sobre > h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#btn-sobre {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    font-size: 1.7rem;
+    background-color: rgb(185, 150, 195);
+}
+
 main > #section-hair {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(images/img-bg-section2.png);
+    background-image: url(images/img-bg-section-hair.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
 }
+    
 
 main > #section-hair > .text-side > h3 {
     font-size: 3.0rem;
@@ -202,17 +246,7 @@ main > #section-contact > h3 {
     color: rgb(60, 60, 60);
 }
 
-/*main > #section-contact > p {
-    font-size: 1.7rem;
-    text-align: center;
-    letter-spacing: 4px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    margin: 40px 0;
-    margin-bottom: 70px;
-    color: rgb(76, 76, 76);
-}
-*/
+
 
 main > #section-contact > #forms > form {
     display: flex;
@@ -246,6 +280,7 @@ main > #section-news {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 main > #section-news > h3 {
@@ -258,6 +293,16 @@ main > #section-news > h3 {
     width: 300px;
 }
 
+main > #section-news > p {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 70px;
+    color: rgb(192, 192, 192);
+}
+
+
 main > #section-news > #forms-news > form {
     display: flex;
     flex-direction: column;
@@ -267,9 +312,9 @@ main > #section-news > #forms-news > form {
 }
 
 main > #section-news > #forms-news > form > input {
-    padding: 20px 70px;
+    padding: 25px 75px;
     border: 1px solid rgb(188, 155, 188);
-    margin-bottom: 20px;
+    margin-bottom: 4px;
     width: 100%;
 }
 
@@ -278,7 +323,7 @@ input::placeholder {
 }
 
 main > #section-news > #forms-news > form > #btn-news {
-    background-color:  rgb(222, 219, 219);
+    background-color:  rgb(194, 194, 194);
     font-size: 1.6rem;
     color: rgb(8, 8, 8);
     width: 60%;
@@ -287,6 +332,7 @@ main > #section-news > #forms-news > form > #btn-news {
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
+    padding: 13px 0px;
 }
 
 main >.owl-carousel .owl-nav  button.owl-next, 
