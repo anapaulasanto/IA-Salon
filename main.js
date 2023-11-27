@@ -3,7 +3,17 @@ var menuBar = document.querySelector('nav ul')
 
 iconBar.addEventListener("click",function(e) {
     menuBar.classList.toggle('hide');
+    document.querySelector('.fechaMenu').classList.toggle('isClose');
 });
+
+//Fechar o menuBar quando clicar fora da tela//
+
+document.querySelector('.fechaMenu').addEventListener('click', (e) => {
+    menuBar.classList.toggle('hide');
+    document.querySelector('.fechaMenu').classList.toggle('isClose');
+})
+
+//Carousel//
 
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
@@ -25,3 +35,15 @@ $(document).ready(function () {
         }
     });
 });
+
+//Voltar ao topo quando tiver rolagem//
+
+var botao = document.querySelector('.fa-arrow-up')
+window.addEventListener("scroll", function (event) {
+    if (this.window.scrollY == 0) {
+        botao.classList.remove("visible");
+    } else {
+        botao.classList.add("visible");
+    }
+});
+
