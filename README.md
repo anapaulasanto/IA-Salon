@@ -12,6 +12,7 @@
  <div align="center">
   <img alt="banner" title="banner" src="./images/banner1.png">
   <img alt="banner" title="banner" src="./images/banner2.png">
+  <img alt="banner" title="banner" src="./images/banner3.png">
 </div>
   
 <h3>Autor</h3>
