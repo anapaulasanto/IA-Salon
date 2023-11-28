@@ -1,0 +1,100 @@
+@media screen and (min-width: 768px) {
+    header {
+        height: 100%;
+    }
+    
+    
+ .img-logo {
+    width: 120px;
+    margin-right: 5px;
+}
+}
+
+@media screen and (min-width: 990px) {
+    header > nav > ul {
+        position: unset;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        width: 0;
+        height: 0;
+        flex-direction: row;
+        transform: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        transition: 0;
+        padding-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 0;
+        gap: 60px;
+    }
+
+    header > nav > ul > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 60px;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+    
+    header > nav > ul > li > a {
+        font-weight: 300;
+    }
+
+    nav> ul > li > a:not(.btn)::after {
+        content: "";
+        background-color: rgb(253, 253, 253);
+        height: 3px;
+        width: 0%;
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    
+    nav> ul > li > a:hover::after {
+        width: 100%;
+    }
+    
+    header > nav > ul > #img-hide  {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    header > .content-header {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 18%;
+        
+    }
+
+    header > .content-header > h1 {
+        font-size: 7.6rem;
+        line-height: 0;
+        letter-spacing: 13px;
+    }
+
+    header > .content-header > h2 {
+        margin-top: 10px;
+        letter-spacing: 13px;
+        
+    }
+
+    header > .content-header > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        color: rgb(184, 184, 184);
+        margin-top: 15%;
+        letter-spacing: 6px;
+        text-align: center;
+    }
+}
