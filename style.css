@@ -308,7 +308,7 @@ main > #section-news > #forms-news > form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 0%;
+
 }
 
 main > #section-news > #forms-news > form > input {
@@ -397,11 +397,13 @@ footer > #text-footer > img {
     padding: 20px 0;
     border-top: 1px solid gray;
     width: 100vw;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 1px;
 }
 
 span2 {
-    color: white;
+    color: rgb(204, 204, 204);
     font-weight: 600;
     letter-spacing: 1px;
 }
