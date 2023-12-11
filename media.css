@@ -97,4 +97,24 @@
         letter-spacing: 6px;
         text-align: center;
     }
+
+    main > #section-sobre >  #text-sobre > p {
+        margin-top: 70px;
+        font-size: 5rem;
+    }
+
+    main > #section-sobre >  #text-sobre > h2 {
+        font-size: 4rem;
+    }
+
+    main > #section-sobre >  #text-sobre > h4 {
+        width: 900px;
+        font-size: 2rem;
+    }
+
+    #btn-sobre {
+       margin-bottom: 80px;
+    }
+
+
 }
