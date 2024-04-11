@@ -1,8 +1,10 @@
 
  
  <h1 align="center">IA Salon</h1>
- <p align="center"> Projeto de um site para salão de beleza </p>
-
+ <h3 align="center"><strong>Projeto de um site para salão de beleza</strong>  </h3>
+ <h4 align="center"><a href="https://anapaulasanto.github.io/IA-Salon/">Clique para visitar o projeto</a></h4>
+ <br> <br>
+ 
  <div align="center">
  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
