@@ -16,6 +16,14 @@
    <img alt="banner" title="banner" src="./images/banner2.png">
   <img alt="banner" title="banner" src="./images/banner3.png">
 </div>
+
+<br>
+
+  ## 📝 Ajustes e melhorias
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [ ] Redefinição da aplicação utilizando React.Js
+- [ ] Utilização de frameworks e bibliotecas
   
   
 <br>
